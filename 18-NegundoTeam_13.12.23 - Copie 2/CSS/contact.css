@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#id_url:valid{
+    color: rgb(18, 239, 18);
+}
+
+#id_url:invalid{
+    color: red;
+}
+
+form fieldset{
+    background-color:bisque ;
+}
+
+form legend {
+    background-color: lightcoral;
+}
+
+form button{
+    background-color: brown;
+}
+
+form button:hover{
+    background-color: lightcoral;
+}
+ form {
+    width: 100%;
+ }

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="CSS/mainStyle.css"/>
+    <link rel="stylesheet" href="CSS/indexStyle.css">
+        
+
+    <script src="https://kit.fontawesome.com/1cec4cbbb3.js" crossorigin="anonymous"></script>
+</head>
+<!--[if It IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+
+<!--corps de la page -->
+<body>
+    
+    <div id="id_Block">
+        <header>
+            <img src="images/imagenegundosport.jpg" alt="Ceci devait être le logo de NEGUNDO SPORT">
+            <div id="mybtndiv">
+                <button id="mybtn">pourquoi avoir créé ce site?</button>
+            </div>
+            <div id="mymodal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Ce site a été créé au cours de l'unité d'apprentisage "création de site WEB".
+                        Il nous a permis de mettre en pratique les notions vue en HTML/CSS.
+                        Certes il est loin d'être parfait et optimal puisqu'il a été créé au fur et à mesure des notions vues le long de notre apprentisage.
+                        Il nous permettra par contre de peaufiner notre apprentisage et de créer dans un futur proche, un "site HTML/CSS" bien plus professionnel
+                    </p>
+                </div>            
+            </div>
+            <script>
+                var modal = document.getElementById("mymodal");
+                var btn = document.getElementById("mybtn");
+                var span = document.getElementsByClassName("close")[0];
+                btn.onclick = function(){
+                    modal.style.display = "block"
+                }
+                span.onclick = function(){
+                    modal.style.display = "none";
+                }
+                window.onclick = function(event){
+                    if (event.target == modal){
+                        modal.style.display = "none"
+                    }
+                }
+            </script>
+        </header>
+        <nav>
+            <div class="d1">
+            <ul>
+                <li><a target="blank" href="index.html">PRESENTATION</a></li>
+                <li><a target="blank" href="pages/news.html">ACTUALITES</a></li>
+                <li><a target="blank" href="pages/medias.html">MEDIAS</a></li>
+                <li><a target="blank" href="pages/team.html">EQUIPES</a></li>
+                <li><a target="blank" href="pages/contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+        </nav>
+        <section>
+            <div class="d2">
+            <h1>Bienvenue au  <span class="mise-en-evidence">NEGUNDO’s TEAM</span></h1>
+
+            <p id="p1">Créé en 2005 le <span class="mise-en-evidence">NEGUNDO’s TEAM</span> un des premiers clubs de la Haute Ecole Condorcet, a connu un nouvel essor au début de 2014, suite au déménagement de la section e-business sur le zoning de TOURNAI Ouest.</p>
+
+            <p>Le <span class="mise-en-evidence">NEGUNDO’s TEAM</span> est ainsi devenue progressivement le premier club sportif de la Haute Ecole en nombre de membres inscrits pratiquant leur sport favori.</p>
+
+            <p>Au cours des 10 dernières années, <span class="mise-en-evidence">NEGUNDO’s TEAM</span> a engrangé de nombreux titres notamment au niveau Provincial.</p>
+            <p>De plus, <span class="mise-en-evidence">NEGUNDO’s TEAM</span>, avec près de 100 membres actifs, représente sans conteste la première entité sportive des Hautes Ecoles en Wallonie Picarde voire même en Wallonie.</p>
+            <p>L’histoire de <span class="mise-en-evidence">NEGUNDO’s TEAM</span> est marquée par plusieurs titres de Champions. Le club a même participé à diverses compétitions provinciales, régionales, même nationales.</p>
+            <p>Le <span class="mise-en-evidence">NEGUNDO’s TEAM</span> désire aujourd’hui développer une équipe cyclotouriste. Elle complètera les disciplines déjà pratiquée au sein de ce club.</p>
+            <p>>On peut y pratiquer tant des disciplines « in-door » que des disciplines en pleine nature.</p>
+       
+            <p>Vous pourrez ainsi pratiquer :</p>
+        <ul> 
+            <li>Sport «in-door»
+                <ul>
+                    <li>Le badminton</li>
+                    <li>Le squash</li>
+                    <li>La gymnastique
+                        <ul>
+                            <li>	« Suédoise » </li>
+                            <li>	Artistique</li>
+                            <li>	La Gymnastique rythmique</li>
+                        </ul>
+                    </li>
+                    <li>La danse
+                        <ul>
+                            <li>De la danse classique à la Zumba</li>
+                        </ul>
+                    </li>
+                </ul>
+            <li>Sport de « plein air »
+                <ul>
+                    <li>Athlétisme
+                        <li>Course à pied(100m-400m-5000m)</li>
+                        <li>Saut
+                            <ul>
+                                <li>	En hauteur</li>
+                                <li>	En longueur	</li>
+                            </ul>
+                        </li>
+                    </li>
+                    <li>Tennis </li>
+                    <li> Footing</li>
+                    <li>Cyclisme(en préparation)</li>
+                </ul>
+                <li>	Route </li>
+                <li> 	VTT</li>
+                <ul>
+            </li>                   
+            </ul>
+                  
+                
+                
+            </ul>
+            </ul>
+
+        <p>Intéressé(e) ??? N’hésitez pas à vous inscrire ! </p>
+
+
+        </li>
+            
+    </ul>
+            </div>
+        </section>
+<aside>
+    <div class="d3">
+<h1><strong>La Haute Ecole Condorcet</strong> et son<span class="mise-en-evidence">"NEGUNDO’s TEAM"</span>  au quartier <em>Negundo</em></h1>
+
+<p><i class='fas fa-address-card'></i>Le quartier NEGUNDO est à l’origine un ensemble de terrains situés au fond de la zone d’activité de <a target="_blank" href="https://ideta.be/parcs-activites/tournai-ouest-froyennes-3/">TOURNAI OUEST I</a> , en bordure d’autoroute A8.
+    Complexe à aménager, ce site présentait des différences de niveaux et des sols pollués, entre une zone agricole et une zone d’habitat.
+    <a target="_blank" href="https://ideta.be/">IDETA </a> , l’Intercommunale de développement économique de<a target="_blank" href="https://www.visitwapi.be/"> Wallonie Picarde</a> , y a voulu mener une requalification générale du site axée sur l’environnement et les économies d’énergie avec l’aide de l’Europe via des fonds FEDER
+</p>
+
+<p><i class='fas fa-address-card'></i>Ce quartier qui compte 4 centres d’entreprises et de formations ainsi que des halls relais et une crèche accueille depuis quelques années la section <a target="_blank" href=" https://www.condorcet.be/e-business/e-business.html">e-business </a>  de la catégorie économique de <em>la Haute Ecole Condorcet.</em> </p>
+       
+<p><i class='fas fa-address-card'></i>Son nom vient d’un arbre, un érable à feuilles de frêne originaire de l’ouest des Etats Unis d’Amériques (Virginie), que l’on peut découvrir sur le site du <a target="_blank" href="https://en.wikipedia.org/wiki/Acer_negundo">NEGUNDO 1.</a></p>
+
+
+<p><i class='fas fa-address-card'></i>Depuis 2016, la section <strong>e-business de la Heph Condorcet </strong> , a décidé d’y installer une équipe sportive à destination de ses étudiants : le « Negundo’s TEAM »</p>
+
+<p><i class='fas fa-address-card'></i>Venez nous y rejoindre !</p>
+    </div>
+
+</aside>
+        <footer>
+            <strong> Heph Condorcet </strong> <span class="mise-en-evidence">NEGUNDO's TEAM</span> - Certains droits sont réservés
+            <div>
+                <a target="_blank" href="#">LEGALS</a>
+                <a target="_blank" href="#">MAP</a>
+             </div>
+        </footer>
+
+</html>

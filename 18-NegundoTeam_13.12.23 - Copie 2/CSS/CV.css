@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+section ul li::before {
+    content: "֍";
+    padding-right: 2%;
+    color: lightcoral;
+}
+
+section ul li{
+    list-style: none;
+}
+
+section p::selection {
+    background-color:lightcoral ;
+}
+
+section {
+    margin:6% 1% 6% 6%;
+}
+
+aside i[class='fas fa-address-card'] {
+    padding-right: 4%;
+}
+
+section {
+    background-color: bisque;
+}
+
+section a {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+section a:hover {
+    color: brown;
+}

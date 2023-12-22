@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="../CSS/mainStyle.css"/>
+    <link rel="stylesheet" href="../CSS/contact.css">
+        
+
+    <script src="https://kit.fontawesome.com/1cec4cbbb3.js" crossorigin="anonymous"></script>
+</head>
+<!--[if It IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+
+<!--corps de la page -->
+<body>
+    
+    <div id="id_Block">
+        <header>
+            <img src="../images/imagenegundosport.jpg" alt="Ceci devait être le logo de NEGUNDO SPORT">
+        </header>
+        <nav>
+            <div class="d1">
+            <ul>
+                <li><a target="blank" href="../index.html">PRESENTATION</a></li>
+                <li><a target="blank" href="news.html">ACTUALITES</a></li>
+                <li><a target="blank" href="medias.html">MEDIAS</a></li>
+                <li><a target="blank" href="team.html">EQUIPES</a></li>
+                <li><a target="blank" href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+        </nav>
+        <section>
+            <form name="" action="" method="post">
+             <label for="id_name">NOM</label> 
+             <input type="text" name="txt_name" id="id_name"
+             placeholder="ex:Dupont" size="30" maxlength="15">
+             <label for="id_pwd">mot de passe:</label>
+             <input type="password" name="txt_pwd" id="id_pwd">
+             <label for="id_comment">commentaire:</label>
+             <textarea name="txt_comment" id="id_comment" cols="20" rows="5" placeholder="votre avis nous intéresse"></textarea>
+            <label for="id_mail">email:</label>  
+            <input type="email" name="txt_email" placeholder="default@exemple.com" size="32" minlength="3" maxlength="64" id="id_mail">
+            <label for="id_url">adresse de votre site:</label>
+            <input type="url" name="txt_url" placeholder="http://www.exemple.com" size="30" minlength="10" maxlength="80" id="id_url" required list="id_defaulturl">
+            <datalist id="id_defaulturl">
+                <option value="http://www.exemple.com">
+                <option value="https://www.exemple.com">
+                <option value="http://www.exemple.org">
+                <option value="https://www.exemple.org">
+            </datalist>
+            <br>
+            <label for="id_tel">téléphone</label>
+            <input type="tel" id="id_tel" name="txt_tel" list="id_defaulttel">
+            <datalist id="id_defaulttel">
+                <option value="0123456789">
+                <option value="1234567890">
+                <option value="5832188524">
+                <option value="0493302416">
+                <option value="0458769851">
+            </datalist>
+            <label for="id_ticketnumber">nb tickets</label>
+            <input type="number" id="id_ticketnumber" name="txt_ticketnumber" value="0" step="2" min="0" max="20">
+            <br>
+            <label for="id_size">taille</label>
+            <input type="range" id="id_size" name="txt_size" value="50" step="10" min="50" max="250" list="id_tickmarks">
+            <datalist id="id_tickmarks">
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100">
+            </datalist>
+            <label for="id_bd">naissance</label>
+            <input type="date" id="id_bd" name="txt_bd" min="1900-01-01" max="2023-11-29" required>
+                <input type="checkbox" id="id_subscribenews" name="chkb_suscribe" value="newsletter">
+                <label for="id_subscribenews">abonne toi connard</label>
+                <fieldset>
+                    <legend>meilleure méthode</legend>
+                <label for="id_contactemail">email</label>
+                <input type="radio" id="id_contactemail" name="rdbtn contact" value="email">
+                <br>
+                <label for="id_contacttel">tel</label>
+                <input type="radio" id="id_contacttel" name="rdbtn contact" value="tel">
+                <br>
+                <label for="id_contactcourrier">courrier</label>
+                <input type="radio" id="id_contactcourrier" name="rdbtn contact" value="courrier">
+            </fieldset>
+                <br>
+
+                <label for="id_interet">centre d'intérêt</label>
+                <select id="id_interet" multiple>
+                    <optgroup label="musique">
+                        <option value="classique">classique</option>
+                        <option value="rock">rock</option>
+                        <option value="pop">pop</option>
+                    </optgroup>
+                    <optgroup label="sports">sports
+                        <option value="gym">gym</option>
+                        <option value="cyclisme">cyclisme</option>
+                        <option value="footing">footing</option>
+                    </optgroup>
+                    <option value="musique">musique</option>
+                    <option value="cinema">cinéma</option>
+                    <option value="sport" selected>sport</option>
+                    <option value="jeuvideo">jeu-vidéo</option>
+                    <option value="lecture">lecture</option>
+                </select>
+            </form>
+            <br>
+            <form name="" action="" method="post">
+                <fieldset>
+                    <legend>informations générales</legend>
+                <label for="id_name">NOM:</label> 
+             <input type="text" name="txt_name" id="id_name"
+             placeholder="ex:Dupont" size="30" maxlength="15" autofocus>
+
+                <label for="id_prenom">prénom:</label> 
+             <input type="text" name="txt_name" id="id_prenom"
+             placeholder="ex:isabelle" size="30" maxlength="15">
+             <br>
+             <label for="id_mail">adresse:</label>  
+            <input type="adresse" name="txt_email" placeholder="entrer votre adresse" size="80" minlength="3" maxlength="64" id="id_mail">
+            <br>
+            <label for="id_cp">CP:</label> 
+             <input type="text" name="txt_name" id="id_cp"
+             placeholder="ex:7900" size="30" maxlength="15">
+
+             <label for="id_local">localité:</label> 
+             <input type="text" name="txt_name" id="id_local"
+             placeholder="ex:leuze" size="30" maxlength="15">
+
+             <label for="id_pays">pays:</label>
+             <select id="id_pays">
+                <option value="bel">belgique</option>
+                <option value="fra">france</option>
+                <option value="all">allemagne</option>
+                <option value="ang">angleterre</option>
+                <option value="bas">pays-bas</option>
+                <option value="aut">autriche</option>
+             </select>
+            <br>
+            <label for="id_bd">naissance:</label>
+            <input type="date" id="id_bd" name="txt_bd" min="1900-01-01" max="2023-11-29" required>
+            <br>
+            <label for="id_tel">téléphone:</label>
+            <input type="tel" id="id_tel" name="txt_tel" placeholder="téléphone">
+            <label for="id_mail">email:</label>  
+            <input type="email" name="txt_email" placeholder="default@exemple.com" size="32" minlength="3" maxlength="64" id="id_mail">
+            <br>
+            <label for="id_poids">poids:</label> 
+             <input type="number" name="txt_number" id="id_poids"
+             placeholder="ex:75" size="30" maxlength="15">
+            <label for="id_taille">taille:</label> 
+             <input type="number" name="txt_number" id="id_taille"
+             placeholder="ex:175" size="30" maxlength="15">
+             <br>
+             <label for="id_sexe">homme</label>
+             <input type="radio" id="id_sexe" name="rdbtn contact">
+
+             <label for="id_sexe">femme</label>
+             <input type="radio" id="id_sexe" name="rdbtn contact">
+            </fieldset>
+            <br>
+                <fieldset>
+                    <legend>sports préférés</legend>
+                    <label for="id_rpm">RPM</label>
+                <input type="radio" id="id_rpm" name="rdbtn rpm" value="rpm">
+
+                <label for="id_foot">football</label>
+                <input type="radio" id="id_football" name="rdbtn foot" value="football">
+                <br>
+                    <label for="id_cyclo">cyclo</label>
+                <input type="radio" id="id_cyclo" name="rdbtn cyclo" value="cyclo">   
+
+                    <label for="id_basket">basket ball</label>
+                <input type="radio" id="id_basket" name="rdbtn basket" value="basket">
+                <br>
+                <label for="id_volley">volley</label>
+                <input type="radio" id="id_volley" name="rdbtn volley" value="volley">      
+                </fieldset>
+                <br>
+                <label for="id_comment">commentaire:</label>
+             <textarea name="txt_comment" id="id_comment" cols="94" rows="10" placeholder="votre avis nous intéresse"></textarea>
+             <button value="submit">envoyer</button>
+             <button value="reset">effacer tout</button>
+             <button type="button">vérification e-mail</button>         
+            </form>
+        </section>
+<aside>
+    
+</aside>
+        <footer>
+            <strong> Heph Condorcet </strong> <span class="mise-en-evidence">NEGUNDO's TEAM</span> - Certains droits sont réservés
+            <div>
+                <a target="_blank" href="#">LEGALS</a>
+                <a target="_blank" href="#">MAP</a>
+             </div>
+        </footer>
+
+</html>

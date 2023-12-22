@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+.mise-en-evidence {
+    color: red;
+}
+ 
+body {
+font-family: Pixelify_Sans ,sans-serif;
+text-transform: uppercase;
+
+}
+
+section ul li{
+    list-style: none;
+    /* list-style-image:url("../images/coeur-gif-079.gif"); */
+}
+
+section ul li::before {
+    content: "֍";
+    padding-right: 2%;
+    color: lightcoral;
+}
+
+section p::selection {
+    background-color:lightcoral ;
+}
+
+aside i[class='fas fa-address-card'] {
+    padding-right: 4%;
+}
+
+#p1 {
+
+    font: Pixelify_Sans, sans-serif;
+}
+
+.d1 {
+    margin-top: 18%;
+}
+
+.d2 {
+    margin:6% 1% 6% 6%;
+
+}
+
+.d3 {
+    margin: 3%;
+}
+
+header button{
+    float: right;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.modal-content{
+    background-color: aquamarine;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid gray;
+    width: 60%;
+}
+
+.close {
+    color: azure;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

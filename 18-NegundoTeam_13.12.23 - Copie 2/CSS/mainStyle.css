@@ -1,0 +1,116 @@
+@charset "utf-8";
+@font-face {
+    font-family:"Roboto";
+    src: url("../Fonts/RobotoMono-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "PTSerif-Regular";
+    src: url("../Fonts/PTSerif-Regular.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+    #id_Block {width: 1300px;margin: 0 auto;padding: 0;
+    
+    }
+    
+    header,footer {display: block;
+    
+    }
+    
+    header {background-color: lightcoral;
+        border-style: solid;
+        border-color: brown;
+    }
+        
+
+    body {
+        font-size: 14px;
+    }
+
+    strong {
+        font-weight: 400;
+    }
+
+    em {
+        font-style: normal;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        text-shadow: 0px 0px 5px red;
+        line-height: 2;
+
+    }
+
+    nav {width: 15%;
+    
+    }
+
+    nav {background-color:lightcoral;float: left;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.3em;
+        font-weight: 700;
+        line-height: 4;
+        border-radius: 5%;
+        border-style: solid;  
+        border-color: brown;
+    }
+
+    nav ul {list-style-type: none;
+    
+    }
+
+    nav ul li:hover {
+        text-indent: 15px;
+    }
+
+    nav ul a {text-decoration: none;color: black;
+    
+    }
+
+    nav ul a:hover{text-decoration:none; color:red;
+    
+    }
+
+    section{float: left; width: 55%;
+        font-family: Roboto,sans-serif;
+        font-size: 1.4em;
+        text-transform: none;
+    
+    }
+
+    aside {color:brown;float: right;border-style: solid; width: 25%;
+        font-family: PTSerif-Regular,sans-serif;
+        font-size: 1.5em;
+        background-color: bisque;
+        
+        
+    }
+
+    aside a {text-decoration: none;color:orange;
+    
+    }
+
+    aside a:hover{color: red;
+    
+    }
+
+    footer {clear: both;background-color: lightcoral;color: black;
+        font-family:'https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap';
+        font-size: 0.8em;
+        font-style: italic;
+        text-align: center;
+        border-style: solid;
+        border-color: brown;
+    }
+
+    footer div {float: right;
+    
+    }
+
+    footer a {text-decoration: none;color: black;
+    
+    }
+
+
+

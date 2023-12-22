@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+
+
+section ul li::before {
+    
+    padding-right: 2%;
+    color: lightcoral;
+}
+
+section p::selection {
+    background-color:lightcoral ;
+}
+
+section {
+    margin: auto;
+}
+
+.d1 {
+    margin-top: 18%;
+}
+
+.d2 {
+    margin:6% 1% 6% 6%;
+}
+
+.d3 {
+    margin: 3%;
+}
+
+section header {
+    background: url("../images/pic03.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+section header ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+section header a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+section header a:hover {
+    color: red;
+}
+
+section header {
+    border-radius: 10px;
+}
+
+section table {
+    border-collapse: collapse;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td,th,caption{
+    border: 1px solid black;
+    vertical-align: center;
+    text-align: center;
+}
